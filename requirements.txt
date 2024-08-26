@@ -1,0 +1,13 @@
+tqdm
+requests
+flask
+flask_cors
+ibm_watson
+jupyterlab
+librosa
+transformers
+numpy
+pyctcdecode
+tensorboard
+tensorflow
+transformers==4.16

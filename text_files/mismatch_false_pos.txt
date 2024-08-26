@@ -1,0 +1,320 @@
+!!!!!!!!!!!!!!!False Pos!!!!!!!!!!!!!!!
+
+################# Reference text:  jol puli ruit paroce reux lamon bente nardé duie anglage jauf trèbe
+######## Processed word  duie
+--> there are two cases were the word duie is said djui, in one case it is correct in the other it is not
+
+Incorrect:
+was indeed incorrect
+
+Correct:  
+was correct 
+-> regional accent 
+
+################# Reference text:  digacelle pireau lisoie milvenet diège conjeau beuil brumidurence héteur tive pléfation sorpile
+######## Processed word  milvenet
+-> was because of [ã] prononciation and not [en], so indeed incorrect
+-> we have the same problem with manivelle
+
+
+
+Explanation:
+--> [gigo] and not [ʒigo]
+--> [eʃo] and not [eko]
+--> wrong_self_correction after a sounding_out: 0 
+--> [ʁəptil] and not [ʁeptil]
+--> [bɔ̃œʁ] and not [bɔnœʁ]
+--> [səlje] and not [selje] 
+--> [zøks] and not [zø]
+
+Questions:
+--> [tʁefɔne] or [tʁəfɔne] could be acceptable, what do you think?
+
+
+
+################# Reference text:  digacelle pireau lisoie milvenet diège conjeau beuil brumidurence héteur tive pléfation sorpile
+######## Processed word  héteur
+filename:  3173_edugame2023_8dde67cc5c9b455b94ac7eed2e8ded64_fdc68d380c0b4b429f9f36b48bd1cfd3.wav
+normalized transcription:   digacélé pireau s lizoille mileven diégueu conjeau banieul brumidurenceu héteur diveu bléfassion sorbileu 
+transcription:  di.ga.célé pi.ro s li.zoille mi.leven di.égueu con.jo ban.ieul brumi.du.renceu é.teur di.veu bléfassion sor.bileu
+accuracy:  [0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0]
+
+################# Reference text:  haie brume chambre demande style crâne fureur manivelle hôtel cordon chanson pommier
+######## Processed word  demande (+ brumidurence as false negative)
+filename:  3405_edugame2023_222571f93b1649dd88e4c12a8cdf0774_19c827048ecb4e6c8fd31d7843087427.wav
+normalized transcription:     brume chambre demande culeu cartre fureur manivelle hotèl cordon chausson pommier 
+transcription:  {adult_support} {comments} brume chambre de.mande cu.leu cartre fu.reu.r ma.nivelle ho.tèl cor.don chau.sson po.mier
+accuracy:  [0, 2, 2, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+
+################# Reference text:  haie brume chambre demande style crâne fureur manivelle hôtel cordon chanson pommier
+######## Processed word  pommier
+filename:  3156_edugame2023_69e23093217145eba7a416d611681746_01bac77381e447d0afac4d21aa99cf32.wav
+normalized transcription:   haie brune brume chambre demande stylo st style gram fu furieur fureur manivelle hôtel hotel ca cordon choinson pommier pom  
+transcription:  aie brune brume chambre dem.mande stylo st style gram fu fu.rieur fureur manivelle hotel hotel ca cor.don choin.son po.mier pom. {cut recording}
+accuracy:  [2, 2, 2, 1, 2, 0, 2, 2, 2, 1, 0, NA]
+
+filename:  3186_edugame2023_146c5921553446e0a44780bdef8d573b_cdc819dc23274525a02a5ce659dc2b43.wav
+normalized transcription:   haie brume chambre demandé ststylé crâne fureur manivelle hôtel carton chausson pommier 
+transcription:  é brume chambre deman.dé st.stylé crane fur.reur manivelle hotel carton chausson pommié
+accuracy:  [2, 2, 2, 0, 0, 2, 1, 2, 2, 0, 0, 2]
+
+################# Reference text:  écho logis intelligence opposition creux foire chouette cuisinier cellier estragon instruments malédiction
+######## Processed word  foire (+ chouette as false negative)
+filename:  4011_edugame2023_139457e1d4ab4189978e494ad1c65b06_40af0d52d9bc47c6ad837bb176b9a7ff.wav
+normalized transcription:   écho jojogui jojojie inteujie jeujensse opozition kreuse foire chouchoute suisinié sejié t  
+transcription:  é.cho jo.jo.gui jo.jo.jie inteujie jeu.jen.sse o.po.zi.tion k.kreuse foire chou.chou.te sui.si.ni.é se.ji.é t {cut recording}
+accuracy:  [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0]
+
+################# Reference text:  écho logis intelligence opposition creux foire chouette cuisinier cellier estragon instruments malédiction
+######## Processed word  chouette
+filename:  3149_edugame2023_20f14ca1e76f4491b45171d370ecb639_6a2b799f094f44978097c25738128594.wav
+normalized transcription:   écho chouette   
+transcription:  é.cho chouette {inaudible} 
+accuracy:  [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0]
+
+################# Reference text:  gigot duvet convalescence excitation tronc poire mouette menuisier casier equateur orchestre réclamation
+######## Processed word  poire (+ tronc as false negative)
+filename:  3161_edugame2023_4933e55ea2f94c7db8b251700251efa8_e81515d80936481ea3f8bb0c6678a838.wav
+normalized transcription:   jo guigo duvet excitation po poire nou  
+transcription:  jo. gui.go duvé excitation po poir nou {cut recording}
+accuracy:  [0, 2, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0]
+
+################# Reference text:  raie grève timbre légende stand crête voleur mirabelle amour lardon saison pompier
+######## Processed word  raie
+filename:  3102_edugame2023_a89bbb1e6e5c43a88b870812ac4ad290_656f0d66d982401798a2e036108e6b2e.wav
+normalized transcription:   raie drève timbre légende stand trénte voleur mirabelle amour lardon saison pompier  
+transcription:  ré drève timbre lé.gende stand trénte voleur mirabelle amour lardon saison pompier 
+accuracy:  [2, 0, 2, 1, 2, 0, 2, 2, 2, 2, 2, 2]
+
+################# Reference text:  liège soeur regret fusil fils août garçon production gaz dieux tension déménagement
+filename:  3161_edugame2023_9889b3877b724fb0abdce7aa9c0daffc_bdecae677dfd40e3b57da44a4ca89e92.wav
+######## Processed word  fusil + garçon (+ regret + août as false negative)
+normalized transcription:   léche sor fusil flisse oug garçon produizé  
+transcription:  lé.che sor fu.zi flisse oug garçon pro.dui.zé {cut recording}
+accuracy:  [0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0]
+
+################# Reference text:  liège soeur regret fusil fils août garçon production gaz dieux tension déménagement
+######## Processed word  août
+filename:  3138_edugame2023_75285312c1be4e859b964aa0f6164829_5f5febf8ea034755b15a46e453252548.wav
+normalized transcription:   lège soeur régrette regrette fossi fussile file août garçon gaz deu tension déménage déménagement 
+transcription:  lège sœur ré.grette re.grette fo.ssi fussile file oute gar.çon gaz deu ten.sion déménage démé.na.ge.ment
+accuracy:  [0, 2, 0, 0, 2, 2, 1, 0, 2, 0, 1, 1]
+
+################# Reference text:  toit régal juin escapade navet pente bandit chaleur carré choix parade fossile
+######## Processed word  toit
+filename:  3119_edugame2023_961f25cb239c493f8dc868646059fe60_bd422dbdc0554417985de26a5770fdbd.wav
+normalized transcription:   toit régle jaune s sadeu enteu don che choix cho 
+transcription:  toi ré.gle jaune s sa.deu en.teu don che choi cho
+accuracy:  [2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+
+################# Reference text:  toit régal juin escapade navet pente bandit chaleur carré choix parade fossile
+######## Processed word  navet
+filename:  3724_edugame2023_07f922437bea40a1bc079b651ac6abd3_1693f9750ae947e191f09a9ec6b67a27.wav
+normalized transcription:   poids régl règle zouinezozou zuin zuin ékapate navet pendu pentu banbantite chale salor saleur careu soi parpa  
+transcription:  poi r.ré.é.gl règle zouine.zo.z.zou zu.in zuin é.é.ka.pa.te na.vé pen.du pentu ban.ban.ti.te cha.le salor saleur careu soi par.r.pa {cut recording}
+accuracy:  [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+
+################# Reference text:  bucurelle daveau ninoie trefonet tiège ronjeau meuil trufondulence hupeur mive gralation turlème
+######## Processed word  ninoie
+filename:  4023_edugame2023_2c0c9d7e7af24547ae0e809494dfc1f7_f64a869bc0af4d8892b914baebfb414c.wav
+normalized transcription:   pokarelle devo ninoie freu eu bou coeur devo ninoir frevoné tière angeu mieul freuvandulence hupeur fine fvimineminf gralation durlène 
+transcription:  po.karelle de.vo ni.noi freu eu bou keur de.vo ni.noir fre.voné tière an.geu mi.eul freu.vandulence upeur fine f.vi.mine.minf gralassion durlène
+accuracy:  [0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 2, 0]
+
+################# Reference text:  bucurelle daveau ninoie trefonet tiège ronjeau meuil trufondulence hupeur mive gralation turlème
+######## Processed word  trefonet
+filename:  3112_edugame2023_fec4cb08cf8b4da4a0b0e261355b8b04_cf7f930f8e164ed38c0e23ac64e5300f.wav
+normalized transcription:   bucurelle daveau ninoie trefonet tiège ronjeau meyé trifondulence hupeur m mive cra gralation turlème 
+transcription:  bu.cu.relle da.vo ni.noie tre.fo.né ti.ège ron.jo me.yé tri.fon.du.lence u.per m mive cra gra.la.tion tur.lème
+accuracy:  [1, 1, 1, 1, 1, 1, 0, 0, 1, 2, 1, 1]
+
+filename:  3126_edugame2023_ae07363f93e743c299d616007b70d660_3c8893aebc7e4cdc9ae634dfa23e8c2f.wav
+normalized transcription:   bucurelle daveau mine ninoie trefonet tiège reux ronjeau meuil trufondulence hupeur mive gralation tirl turlème 
+transcription:  bu.curelle da.vo mine ni.noi tré.foné tiège re ron.jo meuil tru.fon.dulence u.per mive gra.lation tir.l tur.lème
+accuracy:  [1, 1, 1, 1, 2, 1, 2, 1, 1, 2, 1, 1]
+
+filename:  3133_edugame2023_0a8a60472990403fa70e5a559648c7ce_f97406964e6245009f42f479fbeb33c9.wav
+normalized transcription:    bukirelle devo nivoi trefonet tiège ronje mie trifondulence hupeur mive cralation turtèle 
+transcription:  {comments} bukirelle de.vo ni.voi tré.foné tiège ron.je mi.e tri.fondulence u.per mive cra.la.tion tur.tèle
+accuracy:  [0, 0, 0, 1, 2, 0, 0, 0, 1, 2, 0, 0]
+
+filename:  3142_edugame2023_995a062e795344399345ca844258dd24_e755fd4f05824dce98bf58da6dc1d533.wav
+normalized transcription:   gu duf curelle daveau ninoie tre trefonet tié ronjeur mieu trufondulence hupeur mive grala gralation tulème 
+transcription:  gu duf cu.relle da.vo ni.noi tre tré.fo.né ti.é ron.jeur mi.eu tru.fon.du.lence u.per mive gra.la gralation tu.lème
+accuracy:  [0, 1, 1, 1, 0, 0, 0, 1, 1, 2, 2, 0]
+
+filename:  3172_edugame2023_c769b984c5c949a7beb588985a696564_c4e84ace2fb8492bae07a8c3bc399d6b.wav
+normalized transcription:   bucurelle davan eu daveau ninoie trefonet tiège  ronj ronjeau  me meuil trufondulence hupeur mive gralation turlème 
+transcription:  bu.kurelle davan eu davo ninoi tréfoné tiège {ronj.}ron.jo {me.}meuil tru.fon.dulence uper mive gra.lation turlème
+accuracy:  [1, 2, 2, 1, 2, 1, 1, 1, 2, 2, 1, 2]
+
+filename:  3701_edugame2023_2d7744818dbb4ca9865058a14944d867_984a701ad7d34907a183aea72679ae32.wav
+normalized transcription:    bucurelle daveau minoi ninoie trefonet tiège ronjeau  m meuil brufondulence hupeur mive gralation turlème 
+transcription:  {comments} bu.kurelle davo minoi ninoi tré.foné tiège ronjo {m.m.}meuil brufon.dulence uper mive gralassion turlème
+accuracy:  [1, 2, 2, 1, 2, 2, 1, 0, 2, 2, 2, 2]
+
+filename:  3711_edugame2023_aefa79ec3bc145bf936d3cd8b5c1b3a6_9fecf1bbe8ee4763ba03fd4705af348e.wav
+normalized transcription:   burkuresse daveau ninoie trefonet tiège tiège ronjeau mieul fondo trufodulence upér upér mive gralission turlème 
+transcription:  bur.ku.resse da.vo ni.noi tré.fo.né tiège tiège ron.jo mieul fon.do tru.fo.dulence upér upér mive gralission turlème
+accuracy:  [0, 1, 1, 1, 2, 1, 0, 0, 2, 2, 0, 2]
+
+filename:  3740_edugame2023_a9db0395917c41f7b1222c9a0cf19195_36ec06beb435429692ba9ec3953e23bd.wav
+normalized transcription:   bucurelle daveau ninoie trefonet tiège tiège  ron ronjeau miemimeil trufodulence hupeur mive gralation surlème 
+transcription:  bu.kurelle da.vo ni.noi tré.foné ti.ège tiège {ron.}ron.jo mie.mi.me.il tru.fo.dulence u.per mive gra.lassion sur.lème
+accuracy:  [1, 1, 1, 1, 2, 1, 0, 0, 1, 2, 1, 0]
+
+filename:  4004_edugame2023_47bd18aa93dc4538975773d0e145e7f6_858d24281d064f0e9ec384cf81232009.wav
+normalized transcription:   dukurelle dave ninoir trefonet diègue jojo morille trufodunageupé mive gralation turjamai 
+transcription:  duku.relle da.ve ni.noir tréfoné diègue jojo mo.rille trufodu.nageupé mive gra.la.ssion tur.jamai
+accuracy:  [0, 0, 0, 2, 0, 0, 0, 0, 0, 2, 1, 0]
+
+################# Reference text:  bucurelle daveau ninoie trefonet tiège ronjeau meuil trufondulence hupeur mive gralation turlème
+######## Processed word  hupeur
+filename:  3102_edugame2023_b138ec8efbd74ef4a5ae3c3c941907ea_cf80243db2fa41cd954544e152c69232.wav
+normalized transcription:   buturelle daveau ninoie trefonet tchiètche ron ronge ronjeau mail trufodulence hupeur live dralation turlè v me 
+transcription:  bu.turelle davo ninoi trefonet tchiètche ron ronge ronjo mail trufodulence upér live dralation turlè{v}.me
+accuracy:  [0, 2, 2, 2, 0, 2, 0, 0, 0, 0, 0, 1]
+
+filename:  3104_edugame2023_588d60e779d44eaab0ca27d3ae5d5377_80e36fa4440546b79cda01a8c86dc158.wav
+normalized transcription:   brou bucurelle daveau ninoie tréchfoné tiège ronjeau mieu tronfondulence hupeur mèive car gralation turlème lait  
+transcription:  brou bu.curelle davo ni.noi tréchfoné tiège ron.jeau mieu tronfondulence u.p.er mèive car gralation turlem lé {cut recording}
+accuracy:  [1, 2, 1, 0, 2, 1, 0, 0, 1, 0, 2, 2]
+
+filename:  3715_edugame2023_3815f04d89a84aab8ee59725ae59640b_d795f2f0f1e7487ebe7f151f66e3a6b0.wav
+normalized transcription:   bucurelle daveau ninoie trefone tiège rojo ronjeau meil trufondelence hupeur mive glalassion lurlieume 
+transcription:  bu.ku.relle da.vo ni.noi tre.fone ti.ège ro.jo ronjo me.il tru.fon.de.lence upe.r mive gla.la.ssion lur.lieume
+accuracy:  [1, 1, 1, 0, 1, 2, 0, 0, 1, 2, 0, 0]
+
+################# Reference text:  escroc tabac reconnaissance apparition blanc poids couette chemisier rosier écuyère catastrophe déclaration
+######## Processed word  blanc (+ chemisier as false negative)
+filename:  4017_edugame2023_c5df17318b714beb9b35c5694ff7707f_a4bbe42105c34e06b3cb432321d06fdb.wav
+normalized transcription:   exkro tabac reconnaissance apartizion blanc poids couette chemizi rossié éguillèreu cartafrofe déklassion 
+transcription:  ex.kro ta.ba reco.néssan.ce aparti.zion blan poi cou.ette chemi.zi ro.ssié é.gui.llèreu car.taf.fro.fe dékla.ssion
+accuracy:  [0, 1, 1, 0, 2, 2, 2, 0, 0, 0, 0, 0]
+
+################# Reference text:  escroc tabac reconnaissance apparition blanc poids couette chemisier rosier écuyère catastrophe déclaration
+######## Processed word  rosier
+filename:  3170_edugame2023_26baeb925380407693b411dbc0a2bfde_9b8f176da3f94fbea536815cf64bb8f3.wav
+normalized transcription:   escroc tabac reconnaissance appartition apparition blanc poids couette chemizé  ro rosier écureuil non écuyer écuyère castastrophe déclaration  
+transcription:  escro taba reconnaissance appartition apparition blan poi couette chemizé {ro.}ro.zié écureuil non écuyer écuyère cas.tas.trophe déclaration {comments}
+accuracy:  [2, 2, 2, 2, 2, 2, 2, 0, 1, 2, 0, 2]
+
+################# Reference text:  piège femme secret finit mille cerf jardin précision dix lieux million débarquement
+######## Processed word  mille
+filename:  3131_edugame2023_a09772482d4b41fea7d3bbfe5ae07fdd_e6daf7bc2ded426a90456b05c4a2f342.wav
+normalized transcription:    piège phème femme secret piège femme secret mille cerfe jardin précision dix lieux finit million débarquement 
+transcription:  {comments} piège fème fame se.cret piège fame secret mille cerfe jardin pré.ci.sion disse lieu fini million débar.quement
+accuracy:  [2, 2, 2, 2, 0, 2, 1, 2, 2, 2, 2, 1]
+
+################# Reference text:  piège femme secret finit mille cerf jardin précision dix lieux million débarquement
+######## Processed word  dix
+filename:  3134_edugame2023_0db2300e7109430a8aafef6d7a2cd92d_89ffa85225484a8ab3daa984350e3cc3.wav
+normalized transcription:   débarken démarken lion mion crayon dix 
+transcription:  dé.bar.ken dé.mar.ken lion mi.on crayon disse
+accuracy:  [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0]
+
+################# Reference text:  nuit métal joue escalade valet tente jaloux couleur fossé noix balade reptile
+######## Processed word  joue
+filename:  3105_edugame2023_07531a04f5da42c2b72d54866f3f595d_4aba4aa857b54871b7e2eb6f4d25e80e.wav
+normalized transcription:   nuit récal jouer joue ascalade escalade val tente jaloux couleur fozer noix balade raie reux reptile 
+transcription:  nuit ré.cal jou.er jou a.sca.lade escalade val ten.te ja.lou cou.leur fo.zer noi ba.lade ré re ré.pti.le
+accuracy:  [2, 0, 2, 2, 0, 1, 1, 1, 0, 2, 1, 1]
+
+################# Reference text:  nuit métal joue escalade valet tente jaloux couleur fossé noix balade reptile
+######## Processed word  reptile
+filename:  3134_edugame2023_ea2a9b68b91b4ad299f16e96eee878c9_d631619f8a824f63ba65b142c02261f5.wav
+normalized transcription:   nuit métal joue escalader valet tente chalou couleur foché noir balansde reptile reptile 
+transcription:  nui mé.tal jou es.ca.la.der va.lé ten.te cha.lou cou.leur fo.ché noir ba.lans.de re.ptil.e rép.ti.le
+accuracy:  [2, 1, 2, 0, 1, 1, 0, 1, 0, 0, 0, 1]
+
+################# Reference text:  baie frère nombre commande stade crêpe valeur caravelle élève pardon pinson mission
+######## Processed word  mission  (+ pardon as false negative)
+filename:  3134_edugame2023_0db2300e7109430a8aafef6d7a2cd92d_234b7145360c40be9ce23cbe51d21990.wav
+normalized transcription:   michion mission pin pineson paton 
+transcription:  michion mi.ssion pin pine.son pa.ton
+accuracy:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+
+################# Reference text:  suf fari juit lumèce goix munon donte tondé toir rombage jeur brète
+######## Processed word  goix + tondé (+ munon as false negative)
+filename:  3134_edugame2023_7c57021b806a4addbc5cb91643221eb8_74d5c8823ec041f8818c161d30b6d981.wav
+normalized transcription:    suf fari juit luméke goix bente tondé  
+transcription:  {comments} suf fa.ri ju.i lu.mé.ke gua ban.te ton.dé {cut recording}
+accuracy:  [2, 1, 1, 0, 2, 0, 0, 1, 0, 0, 0, 0]
+
+################# Reference text:  sidomelle tiveau firoie timpunet phème tanjeau reuil flunobirence hopeur nive jorcation raplème
+######## Processed word  firoie
+filename:  3408_edugame2023_eefbc24320c2443b95030a364427f22d_9211053089304992979f94bcf9dc6766.wav
+normalized transcription:   vidange firoie timepuné tonjoruiyé hopeur nive jokassion raklème 
+transcription:  vidange firoi time.pu.né ton.joruiyé o.per nive jokassion ra.klème
+accuracy:  [0, 0, 2, 0, 0, 0, 0, 0, 1, 2, 0, 0]
+
+################# Reference text:  sidomelle tiveau firoie timpunet phème tanjeau reuil flunobirence hopeur nive jorcation raplème
+######## Processed word  jorcation
+filename:  3168_edugame2023_63642ca494544fac819152eb8b0935de_800cad4370094d1ba95fed52dae02ae6.wav
+normalized transcription:   sidomelle tive firoie timepuné phème la flemme phème tanjeu reil flunobrience hopeur nive jorcation rapèle  
+transcription:  si.do.melle ti.ve fi.roi time.pu.né fème la flemme fème tan.jeu reil flu.nobrience o.peur nive jo.rkartion ra.pèle 
+accuracy:  [1, 0, 1, 0, 2, 0, 0, 0, 1, 2, 0, 0]
+
+################# Reference text:  jol puli ruit paroce reux lamon bente nardé duie anglage jauf trèbe
+######## Processed word  reux
+--> most cases re is reux (and we agreed on the mapping re => reux)
+
+filename:  3107_edugame2023_be0856858d14475cacba8a3f255fd883_2ea2d5dea4844fff91e9da4f4480a7c5.wav
+normalized transcription:   jol pli ruit paroké reux lamon dente nardé duie enlage jauf tré  
+transcription:  jol pli ru.i pa.ro.ké re la.mon den.te na.rdé du.i en.lage jo.f tré 
+accuracy:  [2, 0, 1, 0, 2, 1, 0, 1, 1, 0, 1, 0]
+
+filename:  3113_edugame2023_0385ca5e0f6444e4819f5d86f05582b9_6787501bf73d49f2b958251ee9bf7772.wav
+normalized transcription:   loi puli ruit paroce reux lanmon bainte nardé duie anglage jauf tébré trébé 
+transcription:  loi puli rui pa.rosse re lan.mon bainte nar.dé dui an.glage jof tébré trébé
+accuracy:  [0, 2, 2, 1, 2, 0, 0, 1, 2, 1, 2, 0]
+
+filename:  4014_edugame2023_26c48faeff8a4b3a82336f3aaf860c1d_b5dabd7cc24e4157b69b7a33b0b6d345.wav
+normalized transcription:   jol li li jol lui li parok reux lamon bente  
+transcription:  jol li li jol lui li pa.rok re lamon bente 
+accuracy:  [2, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0]
+
+################# Reference text:  suf fari juit lumèce goix munon donte tondé toir rombage jeur brète
+######## Processed word  
+--> many cases where ton.dé is not scored 0
+
+filename:  3150_edugame2023_240808cfc18e48f99c46e6e1e99f729c_09dcaaac4fd74c16a1ef4a50b0d09938.wav
+normalized transcription:   suf fari juit lumère goix muno doi donné tondé doir tonbage donté jeu jeur bré 
+transcription:  suf fa.ri jui lu.mère gua mu.no doi donné ton.dé doir ton.bage jeu jeur bré
+accuracy:  [2, 1, 2, 0, 2, 0, 0, 1, 0, 0, 2, 0]
+
+################# Reference text:  lait désir joie escalope béret vente boulot bonheur pâté voix façade argile
+######## Processed word  bonheur (+ désir as false negative)
+filename:  3185_edugame2023_72d6fc4073c1440197e61b29f068fd14_60c14d13d28d475686dc4089b3bea82e.wav
+normalized transcription:   lait déssir joie lon ésalope salope béret béré findre boulon bonheur pade voix façade argile  
+transcription:  lé dé.ssir joi lon é.salope salope bé.ré béré findre bou.lon bon.eur pa.de voi fa.çade ar.gil 
+accuracy:  [2, 0, 2, 0, 2, 0, 0, 0, 0, 2, 1, 1]
+
+################# Reference text:  rof rari tuit cutice zeux bumon bante perné loif bonfage jeul trème
+######## Processed word  zeux
+--> sometimes ze is not 0 sometines it is 0, here are the 0 cases
+
+filename:  3112_edugame2023_fec4cb08cf8b4da4a0b0e261355b8b04_a5a3ecc7137e4cf6903dd133009505da.wav
+normalized transcription:   rof rari tuit cutice zeux dzeus bune buman bente perné loif bonfage jol trème 
+transcription:  rof ra.ri tui cu.tisse ze dzeus bune buman bente per.né loif bon.fage jol trème
+accuracy:  [2, 1, 2, 1, 1, 0, 2, 1, 2, 1, 0, 2]
+
+filename:  3151_edugame2023_60c1231162604cd9ad81ca6c717ca38e_f1d17b44efa84ba58048f071195bf066.wav
+normalized transcription:   rouf rari tuit suticé zeux bumon perné loi bonfageu jeu trèmeu  
+transcription:  rouf ra.ri tui su.ti.cé ze bu.mon pér.né loi bon.fa.geu jeu trè.meu 
+accuracy:  [0, 1, 2, 0, 2, 1, 0, 1, 0, 0, 0, 0]
+
+filename:  3154_edugame2023_6f2f0b6def074574b980cbfa9fb0a6c2_440549efdd1147828247fa2f2b90094e.wav
+normalized transcription:   rof rari tuit cutice zeux bun bumon binte perné loif bonfage je trème  
+transcription:  rof ra.ri tui cu.tisse ze bun bu.mon binte per.né loif bon.faje je trème 
+accuracy:  [2, 1, 2, 1, 2, 1, 0, 1, 2, 1, 0, 2]
+
+filename:  3163_edugame2023_8fbea0eeb07c4954b112f0ef6ace39bb_f9f55693d52e494ab83fa9fccdbefe57.wav
+normalized transcription:   rof rari tuit j juit zeux bumo bonte perné fon fage jeul trème 
+transcription:  rof ra.ri tui j jui ze bu.mo bonte perné fon fage jeul trème
+accuracy:  [2, 1, 2, 0, 2, 0, 0, 2, 0, 0, 2, 2]
+
+filename:  3171_edugame2023_4dc9b379c29f47ddbbb98c753f1d1a97_e7e499faac594e55b2d40a7949f7a30b.wav
+normalized transcription:   rof ravi tul cutice zeux bumo mente terné loi bonfage jeu trè 
+transcription:  rof ravi tul cu.tisse ze bu.mo mente ter.né loi bon.fage jeu trè
+accuracy:  [2, 0, 0, 1, 2, 0, 0, 0, 0, 1, 0, 0]
